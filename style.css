@@ -1,0 +1,257 @@
+
+.navbar{
+    font-family: Lexend;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr ;
+    place-items: center;
+}
+.lexend {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.list-item-navbar{
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    margin: 0%;
+    transition: all 0.2s;
+}
+.list-item-navbar:hover{
+    transform: translateY(-30%);
+}
+.left-navbar-item{
+    font-weight: 800;
+}
+.middle-navbar-item{
+    color: black;
+    font-weight: 900;
+    font-size: 250%;
+    padding: 0%;
+    width: fit-content;
+    height: fit-content;
+}
+.heading-name{
+    margin: 0%;
+}
+.right-navbar-item{
+ width: fit-content;
+ height: fit-content;
+}
+.placeholder-navbar{
+    margin: 0%;
+}
+.home-div{
+    margin-top: 6rem;
+    display: grid;
+    grid-template: 1fr 0.3fr/ 1fr;
+}
+.big-text-home{
+    text-align: left;
+    font-family: Lexend;
+    font-weight: 900;
+    font-size: 4rem;
+    place-self: center;
+}
+.home-button{
+    background-color: transparent;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-radius: 5rem;
+    font-family: Lexend;
+    height: 10rem;
+    width: 23rem;
+    transition: all 0.25s;
+    color: black;
+    place-self: center;
+    margin-bottom: 10%;
+}
+.home-button-link:hover{
+    background-color: black;
+    color: white;
+}
+
+.home-button-link{
+    font-weight: 700;
+    font-size: 3rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.25s;
+}
+.team-heading{
+    color: black;
+    font-family: Lexend;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.5em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.team-member-1{
+    font-family: Lexend;
+    color: black;
+    display: grid;
+    grid-template: 0.5fr/ 0.5fr 1fr;
+    place-items: center;
+}
+.member-name-1{
+    font-weight: 900;
+    margin: 0%;
+    font-size: 5em;
+}
+.member-role-1{
+    font-weight: 500;
+    font-size: 2em;
+}
+.member-img-1{
+    border-radius: 100%;
+    height: 20rem;
+    width: 20rem;
+}
+.name-role-1{
+    align-self: center;
+    margin-left: 7.5%;
+}
+.team-apply{
+    display: grid;
+    grid-template: 1fr / 1fr 0.4fr;
+    place-items: center;
+}
+.member-apply-img{
+   font-size: 16rem;
+    margin: 0%;
+    font-weight: 700;
+    font-family: Lexend;
+    order: 1;
+    align-self:self-end;
+}
+.saronyx-text-1{
+    font-family: Lexend;
+    font-size: 5em;
+    font-weight: 900;
+    margin: 0%;
+}
+.apply-button{
+    height: 7rem;
+    width: 17rem;
+    font-size: 3rem;
+    font-weight: 700;
+    border-radius: 5rem;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: black;
+    background-color: transparent;
+}
+.apply-link{
+    color: black;
+    text-decoration: none;
+}
+.work-heading{
+    font-family: Lexend;
+    font-size: 3.5em;
+    text-align: center;
+    font-weight: 700;
+}
+.work-1{
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    place-items: center;
+}
+.img-work-1{
+width: 100%;
+border-radius: 1em;
+}
+.heading-work-1{
+    margin-left: 5%;
+    font-family: Lexend;
+    order: -1;
+    font-size: 4em;
+    font-weight: 900;
+}
+.description-work-1{
+    margin-left: 5%;
+    font-family: Lexend;
+    font-size: 2em;
+}
+.work-2{
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    place-items: center;
+}
+.img-work-2{
+width: 100%;
+border-radius: 1em;
+}
+.heading-work-2{
+    margin-left: 5%;
+    font-family: Lexend;
+    font-size: 4em;
+    font-weight: 900;
+}
+.description-work-2{
+    margin-left: 5%;
+    font-family: Lexend;
+    font-size: 2em;
+}
+.contact-heading{
+    font-family: Lexend;
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 700;
+}
+.contact-div{
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr;
+    gap: none;
+
+}
+.name-input{
+    height: 5em;
+    border-width: 0.25em;
+    width: auto;
+    text-align: center;
+    font-family: Lexend;
+    color: black;
+    border-radius: 2.5em 2.5em 0em 0em;
+    border-color: black;
+    border-style: solid;
+    margin: 0%;
+}
+.email-input{
+    height: 5em;
+    width: auto;
+    border-width: 0.25em;
+    text-align: center;
+    font-family: Lexend;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    margin: 0%;
+}
+.text-input{
+    height: 5em;
+    width: auto;
+    border-width: 0.25em;
+    text-align: center;
+    font-family: Lexend;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    margin: 0%;
+}
+.submit-button{
+    height: 5em;
+    width: auto;
+    border-width: 0.25em;
+    text-align: center;
+    font-family: Lexend;
+    color: #887676;
+    border-radius: 0em 0em 2.5em 2.5em;
+    border-color: #000000;
+    border-style: solid;
+    margin: 0%;
+    background-color: transparent;
+}
